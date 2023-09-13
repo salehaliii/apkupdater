@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name" translatable="false">APKUpdater</string>
+    <string name="tab_apps">التطبيقات</string>
+    <string name="tab_search">البحث</string>
+    <string name="tab_updates">التحديثات</string>
+    <string name="tab_settings">إعدادات</string>
+    <string name="something_went_wrong">"Something went wrong\n\uD83E\uDD26"</string>
+    <string name="ignore_cd">تجاهل التطبيق</string>
+    <string name="unignore_cd">إلغاء تجاهل التطبيق</string>
+    <string name="refresh_updates">البحث عن التحديثات</string>
+    <string name="exclude_system_apps">استبعاد تطبيقات النظام</string>
+    <string name="include_system_apps">يتضمن تطبيقات النظام</string>
+    <string name="exclude_app_store">استبعاد متجر التطبيقات</string>
+    <string name="include_app_store">يتضمن متجر التطبيقات</string>
+    <string name="exclude_disabled_apps">استبعاد التطبيقات المعطلة</string>
+    <string name="include_disabled_apps">يتضمن التطبيقات المعطلة</string>
+    <string name="install_cd">تثبيت التطبيق</string>
+    <string name="app_cd">أيقونة التطبيق</string>
+    <string name="install_success">%1$s مثبت.</string>
+    <string name="install_failure">%1$s فشل في تثبيته</string>
+
+    // Settings
+    <string name="settings_portrait_columns">أعمدة عمودية</string>
+    <string name="settings_landscape_columns">أعمدة أفقية</string>
+    <string name="settings_sources">المصادر</string>
+    <string name="settings_ui">UI</string>
+    <string name="settings_alarm">التنبية</string>
+    <string name="settings_options">خيارات</string>
+    <string name="settings_utils">المرافق</string>
+    <string name="settings_hour">ساعة المنبه</string>
+    <string name="settings_alarm_daily">يومي</string>
+    <string name="settings_alarm_3day">3 أيام</string>
+    <string name="settings_alarm_weekly">أسبوعي</string>
+    <string name="settings_android_tv_ui" translatable="false">Android TV UI</string>
+    <string name="ignore_alpha">تجاهل ألفا</string>
+    <string name="ignore_beta">تجاهل التجريبي</string>
+    <string name="ignore_preRelease">تجاهل الإصدار المسبق</string>
+    <string name="use_safe_stores">استخدام المخازن الآمنة (Aptoide)</string>
+    <string name="root_install">تثبيت الروت</string>
+    <string name="source_apkmirror" translatable="false">ApkMirror</string>
+    <string name="source_fdroid" translatable="false">F-Droid Main</string>
+    <string name="source_izzy" translatable="false">F-Droid Izzy</string>
+    <string name="source_aptoide" translatable="false">Aptoide</string>
+    <string name="source_github" translatable="false">GitHub</string>
+    <string name="source_apkpure" translatable="false">APKPure (تجريبي)</string>
+    <string name="about">حول</string>
+    <string name="frequency">التكرار</string>
+    <string name="theme">الثيم</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_dark">غامق</string>
+    <string name="theme_light">فاتح</string>
+    <string name="about_github">الحصول على الكود المصدري، وأبلغ عن الأخطاء، واطلب ميزات جديدة، وإضافة الترجمات.</string>
+    <string name="about_donate">If you like the app, consider donating to a worthy cause.</string>
+    <string name="copy_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="copy_app_list">نسخ قائمة التطبيقات</string>
+
+    // Notifications
+    <string name="notification_channel_name">التحديثات</string>
+    <string name="notification_channel_description">قناة لإشعارات التحديث.</string>
+    <string name="notification_channel_id" translatable="false">updateChannel</string>
+    <string name="notification_update_title">التحديثات</string>
+    <plurals name="notification_update_description">
+        <item quantity="zero">لم يتم العثور على تحديثات.</item>
+        <item quantity="one">تم العثور على %1$d تحديث.</item>
+        <item quantity="other">تم العثور على %1$d تحديثات.</item>
+    </plurals>
+
+</resources>
